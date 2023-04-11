@@ -1,38 +1,188 @@
-.App {
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgb(33, 32, 32);
+  width: 100%;
+  height: 60px;
+}
+.navbar h2 {
+  color: white;
+  margin-left: 5%;
+  padding: 15px 0;
+}
+.folio {
+  color: yellow;
+}
+.myname {
+  margin-top: 0;
+  width: 100%;
+  color: white;
+  height: 300px;
+  background-image: url("./images/tech.jpeg");
+  padding: 10px;
+}
+.tessy-pic {
+  display: none;
+}
+.hello {
+  line-height: 50px;
+  margin-top: 40px;
+  margin: 4%;
+}
+.hello p {
+  font-size: 25px;
+}
+.hello h1 {
+  font-size: 35px;
+}
+.hello Button {
+  background-color: inherit;
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid yellow;
+}
+.about {
+  background-color: rgb(16, 16, 16);
+  color: white;
+  height: auto;
+  line-height: 30px;
+  padding: 10px;
+}
+/* .aboutme {
+  margin: 5%;
+} */
+.about hr {
+  width: 50px;
+  border: 2px solid yellow;
+  margin: 0 5% 0 5%;
+}
+.whoiam {
+  margin: 5%;
+}
+.whoiam Button {
+  background-color: yellow;
+  height: 35px;
+  width: 150px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.creative-div {
+  background-color: rgb(30, 29, 29);
+  color: white;
+  padding: 10px;
+}
+.creative-skill {
+  margin: 5%;
+}
+.creative-skill p {
+  margin-top: 15px;
+  line-height: 20px;
+}
+.percentage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 150px;
+  margin-top: 20px;
+  margin: 5%;
+}
+.percent p {
+  color: yellow;
+}
+.siteimg {
+  width: 50%;
+  padding: 10px;
+}
+.project-div {
+  background-color: rgb(30, 29, 29);
   text-align: center;
+  font-display: flex;
+  color: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.projects {
+  color: white;
+  margin-bottom: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.contact {
+  background-color: rgb(30, 29, 29);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contact h1,
+h2 {
+  margin-left: 5%;
+}
+.form-msg h3 {
+  color: yellow;
+  margin-bottom: 10px;
+}
+.form-input {
+  width: 350px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin: 1% 5%;
+}
+.form-textarea {
+  width: 350px;
+  height: 100px;
+  font-size: 18px;
+  margin: 1% 5%;
+}
+.form-btn {
+  color: black;
+  background-color: yellow;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 1% 5%;
+}
+.linkedin-img {
+  width: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.linkedin-img1 {
+  width: 23px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.get-in-touch {
+  border: 1px solid yellow;
+  text-align: right;
+  padding: 10px 20px;
+  margin: 0 5%;
+}
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.contact-me {
+  margin: 20px 10px 0 10px;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 768px) {
+  .tessy-pic {
+    display: flex;
+    width: 300px;
+    height: 240px;
+    margin: 50px 50px 0 0;
   }
-  to {
-    transform: rotate(360deg);
+  .myname {
+    display: flex;
+    justify-content: space-between;
+  }
+  .percentage {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 5%;
+  }
+  .whoiam {
+    margin: 2% 5% 1% 5%;
   }
 }
