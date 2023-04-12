@@ -99,6 +99,7 @@ function MyPage() {
 <div className='contact'>
   <div className='contact-div'>
   <h1>Contact Me</h1>
+  <hr className='HR'/>
   <h2>Message <span className='folio'>Me</span></h2>
   <form ref={form} onSubmit={sendEmail}>
       <input type="text" name="to_name" placeholder='Name' className='form-input'/><br />
