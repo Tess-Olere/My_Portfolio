@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import shopify from '../images/shopify.jpg'
 import estore from '../images/estore.jpg'
 import './MediaCard.css'
-import { Container } from 'react-bootstrap'
+
 
 export default function MediaCard() {
   return (
