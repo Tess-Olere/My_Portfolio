@@ -12,3 +12,8 @@
 .card-body {
     margin: 0 5% ;
 }
+.pictures {
+    display: flex;
+    gap: 2rem;
+    margin: 0 5%
+}
