@@ -17,3 +17,9 @@
     gap: 2rem;
     margin: 0 5%
 }
+
+@media screen and (max-width: 600px) {
+.pictures {
+    display : block;
+}
+}

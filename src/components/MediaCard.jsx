@@ -19,7 +19,7 @@ export default function MediaCard() {
 <div className="card">
   <img className="card-img-top" src={estore} alt="blogimage" />
   <div className="card-body">
-    <h3 class="card-title">Blog App</h3>
+    <h3 class="card-title">E-store App</h3>
     <p class="card-text">A fully responsive blog website</p>
     <Link className='site' to='https://etess.netlify.app'>Go to site</Link>
   </div>
